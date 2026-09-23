@@ -18,9 +18,43 @@ nav#main-nav {
 }
 
 body {
-    background-color: white;
+    background-color: #faf8f6;
 }
 
 footer {
-    background-color: rgb(246, 139, 31)
+    background-color: rgb(246, 139, 31);
+    font-family: sans-serif;
+}
+
+.footer-title {
+    font-family: Georgia, serif;
+}
+
+.Sources {
+    padding: 1em;
+    display: inline-block;
+    color: black;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+th {
+    text-align: center;
+}
+
+.main-footer {
+    padding: 1em;
+}
+
+.copyright {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.animal-name {
+    font-size: 1.5em;
+    color: black;
+}
+
+.profile {
+    background-color: rgb(161, 192, 76);
 }
