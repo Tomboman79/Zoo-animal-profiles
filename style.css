@@ -18,7 +18,7 @@ nav#main-nav {
 }
 
 body {
-    background-color: #faf8f6;
+    background-color: rgb(254, 243, 233);
 }
 
 footer {
@@ -55,6 +55,40 @@ th {
     color: black;
 }
 
+.profiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
 .profile {
     background-color: rgb(161, 192, 76);
+    border: solid 1px black;
+    border-radius:  1rem;
+    box-shadow: 0.25rem 0.5rem 0.25rem rgb(0, 0, 0.33);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    transition: all ease-in-out 300ms;
+    display: grid;
+    grid-template-rows: max-content auto 1fr;
+    height: 420px;
+    width: 300px;
+
+    & img {
+        border-radius: 1rem 1rem 0 0;
+    }
+}
+
+.sub-title {
+    color: rgb(161, 192, 76);
+    font-weight: bold;
+    font-family: Gill Sans, sans-serif;
+}
+
+.Endangered {
+    color: red;
+}
+
+.Vulnerable {
+    color: rgb(225, 173, 1);
 }
