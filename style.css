@@ -40,6 +40,7 @@ footer {
 
 th {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .main-footer {
@@ -73,6 +74,7 @@ th {
     grid-template-rows: max-content auto 1fr;
     height: 420px;
     width: 300px;
+    text-align: center;
 
     & img {
         border-radius: 1rem 1rem 0 0;
@@ -87,8 +89,12 @@ th {
 
 .Endangered {
     color: red;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
 .Vulnerable {
     color: rgb(225, 173, 1);
+    font-weight: bold;
+    font-size: 1.2em;
 }
